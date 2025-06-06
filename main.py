@@ -6,6 +6,7 @@ import random
 import time
 import json
 import sys
+from io import StringIO
 import pandas as pd
 from datetime import datetime, timezone, timedelta
 
@@ -154,7 +155,8 @@ def find_rate_cz(html):
     table = soup.find('table')
     if table:
         # Convert table to pandas DataFrame
-        df = pd.read_html(str(table))[0]
+        # df = pd.read_html(str(table))[0]
+        df = pd.read_html(StringIO(str(table)))[0]
         
         # Look for EUR row (case insensitive)
         eur_mask = df['Currency'].str.contains('euro', case=False, na=False) | \
