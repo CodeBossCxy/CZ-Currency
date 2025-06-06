@@ -2,8 +2,8 @@ This will go to the file.
 usd_rate:  0.0710782571611344
 eur_rate:  0.04040404040404041
 [update_container_location] payload:  {"inputs": {"Add_By": 16746621, "Currency_Exchange_Type_Key": 18, "Currency_Key": 2, "Date_Start": "2025-06-05T22:00:00.000Z", "Date_End": "2025-06-05T22:00:00.000Z", "Exchange_Rate": 0.04040404040404041}}
-[update_container_location] response:  {'outputs': {'Currency_Exchange_Key': 150903, 'Error_Message': None}, 'tables': [], 'transactionNo': '1550'}
+[update_container_location] response:  {'outputs': {'Currency_Exchange_Key': 150910, 'Error_Message': None}, 'tables': [], 'transactionNo': '1552'}
 True
 [update_container_location] payload:  {"inputs": {"Add_By": 16746621, "Currency_Exchange_Type_Key": 18, "Currency_Key": 1, "Date_Start": "2025-06-05T22:00:00.000Z", "Date_End": "2025-06-05T22:00:00.000Z", "Exchange_Rate": 0.0710782571611344}}
-[update_container_location] response:  {'outputs': {'Currency_Exchange_Key': 150904, 'Error_Message': None}, 'tables': [], 'transactionNo': '1551'}
+[update_container_location] response:  {'outputs': {'Currency_Exchange_Key': 150911, 'Error_Message': None}, 'tables': [], 'transactionNo': '1553'}
 True
