@@ -116,10 +116,10 @@ def get_exchange_rate(url, location):
             if location == 'PT':
                 result_text = find_rate_pt(html)
             elif location == 'CZ':
-                result_text = find_rate_cz(html)
+                usd_rate, eur_rate = find_rate_cz(html)
             elif location == 'MX':
                 result_text = find_rate_mx(html)
-            return result_text
+            return usd_rate, eur_rate
     except Exception as e:
         print(f"Error retrieving exchange rate: {e}")
         return None
